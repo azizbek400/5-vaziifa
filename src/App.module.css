@@ -1,0 +1,553 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    width: 72.5%;
+    height: auto;
+    background-color: rgba(250, 250, 250, 1);
+}
+
+.btn {
+    width: 91px;
+    height: 37px;
+    border-radius: 16px;
+    background-color: rgba(252, 139, 64, 1);
+    border: none;
+    cursor: pointer;
+    font: Rubik;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.ul {
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+}
+
+.ul a {
+    text-decoration: none;
+    font: Rubik;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    color: rgba(160, 168, 177, 1);
+}
+
+.ul a:hover {
+    border-bottom: 2px solid rgba(252, 139, 64, 1);
+}
+
+.navContainer {
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    gap: 1.5%;
+}
+
+.header {
+    width: 97%;
+    height: 390px;
+    background-image: url("/src/images/foto.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.headerDisplay {
+    padding: 0px 0px 0px 60px;
+}
+
+.headerText {
+    width: 494px;
+    font: Rubik;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 48px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 4%;
+}
+
+.headerBtn {
+    width: 160px;
+    height: 55px;
+    border-radius: 8px;
+    background-color: rgba(252, 139, 64, 1);
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    border: none;
+    font: Rubik;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    margin-top: 3%;
+}
+
+.gameH1 {
+    width: 200px;
+    font: Rubik;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 25px;
+    color: rgba(38, 29, 86, 1);
+    margin-left: 62px;
+    margin-top: 20px;
+}
+
+.footer {
+    width: 169.26px;
+    height: 250px;
+    border-radius: 14px;
+    background: linear-gradient(179.96deg, rgba(0, 0, 0, 0) 31.56%, rgba(22, 36, 64, 0.9) 86.9%), url("/src/images/sniper.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.footer h1 {
+    font: Oxanium;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer i {
+    width: 10.5px;
+    height: 11.83px;
+    color: rgba(252, 139, 64, 1);
+}
+
+.footer p {
+    width: 125.25px;
+    height: 16px;
+    font: Oxanium;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 15px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.iconText {
+    display: flex;
+    align-items: center;
+    margin-top: 4%;
+    gap: 5%;
+}
+
+.footertexts {
+    margin-left: 10px;
+    padding-top: 175px;
+}
+
+.footerboss {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    gap: 2.3%;
+}
+
+
+.footer2 {
+    width: 169.26px;
+    height: 250px;
+    border-radius: 14px;
+    background: linear-gradient(179.96deg, rgba(0, 0, 0, 0) 31.56%, rgba(22, 36, 64, 0.9) 86.9%), url("/src/images/need.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.footer2 h1 {
+    font: Oxanium;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer2 i {
+    width: 10.5px;
+    height: 11.83px;
+    color: rgba(252, 139, 64, 1);
+}
+
+.footer2 p {
+    width: 125.25px;
+    height: 16px;
+    font: Oxanium;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 15px;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+.footer3 {
+    width: 169.26px;
+    height: 250px;
+    border-radius: 14px;
+    background: linear-gradient(179.96deg, rgba(0, 0, 0, 0) 31.56%, rgba(22, 36, 64, 0.9) 86.9%), url("/src/images/witcher.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.footer3 h1 {
+    font: Oxanium;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer3 i {
+    width: 10.5px;
+    height: 11.83px;
+    color: rgba(252, 139, 64, 1);
+}
+
+.footer3 p {
+    width: 125.25px;
+    height: 16px;
+    font: Oxanium;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 15px;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+.footer4 {
+    width: 169.26px;
+    height: 250px;
+    border-radius: 14px;
+    background: linear-gradient(179.96deg, rgba(0, 0, 0, 0) 31.56%, rgba(22, 36, 64, 0.9) 86.9%), url("/src/images/pubg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.footer4 h1 {
+    font: Oxanium;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer4 i {
+    width: 10.5px;
+    height: 11.83px;
+    color: rgba(252, 139, 64, 1);
+}
+
+.footer4 p {
+    width: 125.25px;
+    height: 16px;
+    font: Oxanium;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 15px;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+.footer5 {
+    width: 169.26px;
+    height: 250px;
+    border-radius: 14px;
+    background: linear-gradient(179.96deg, rgba(0, 0, 0, 0) 31.56%, rgba(22, 36, 64, 0.9) 86.9%), url("/src/images/sniper2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.footer5 h1 {
+    font: Oxanium;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer5 i {
+    width: 10.5px;
+    height: 11.83px;
+    color: rgba(252, 139, 64, 1);
+}
+
+.footer5 p {
+    width: 125.25px;
+    height: 16px;
+    font: Oxanium;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 15px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.sectionH1 {
+    font: Rubik;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 25px;
+    color: rgba(38, 29, 86, 1);
+    margin-left: 62px;
+    margin-top: 20px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    width: 237px;
+    height: 88px;
+    border-radius: 10px;
+    background-color: rgba(252, 139, 64, 1);
+    padding: 10px;
+    gap: 5%;
+}
+
+.box img {
+    width: 66.51px;
+    height: 66.54px;
+    border-radius: 10px;
+}
+
+.box h3 {
+    font-family: Rubik;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 17.78px;
+    color: rgba(34, 40, 60, 1);
+}
+
+.boxP {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 10px;
+    color: rgba(11, 233, 248, 1);
+    margin-top: 2%;
+}
+
+.authorr {
+    width: 19.7px;
+    height: 15px;
+    font: SF Pro Text;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 14.32px;
+    color: rgba(34, 40, 60, 1);
+    text-align: center;
+}
+
+.icons {
+    color: rgba(255, 255, 255, 1);
+}
+
+.displey {
+    display: flex;
+    align-items: center;
+    gap: 1%;
+    margin-top: 1rem;
+}
+
+
+.disp {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin-left: 10px;
+    gap: 2%;
+}
+
+.box2 {
+    display: flex;
+    align-items: center;
+    width: 220px;
+    height: 82px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px gray;
+    padding: 10px;
+    gap: 5%;
+}
+
+.box2 img {
+    width: 66.51px;
+    height: 66.54px;
+    border-radius: 10px;
+}
+
+.box2 h3 {
+    font-family: Rubik;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 17.78px;
+    color: rgba(34, 40, 60, 1);
+}
+
+.icons2 {
+    color: rgba(252, 139, 64, 1);
+}
+
+.yonmayon {
+    display: flex;
+}
+
+.nav2 {
+    width: 405px;
+    height: 1120px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.nav2 img {
+    width: 39.19px;
+    height: 40px;
+    border-radius: 17px;
+    cursor: pointer;
+}
+
+.nav2 p {
+    font: Rubik;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: rgba(38, 29, 86, 1);
+    cursor: pointer;
+}
+
+.nav2disp {
+    width: 52%;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 15px;
+    gap: 3%;
+}
+
+.nav2 i {
+    font-size: 23px;
+    border: 2px;
+    color: rgba(38, 50, 98, 1);
+    margin-top: 50px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.nav2container {
+    width: 405px;
+    display: flex;
+    gap: 5%;
+}
+
+.live {
+    font: Rubik;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 22px;
+    color: rgba(34, 40, 60, 1);
+    margin-left: 15px;
+    margin-top: 32px;
+}
+
+.newbox {
+    width: 360px;
+    height: 75px;
+    background-color: rgba(252, 139, 64, 1);
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.box3 {
+    display: flex;
+    align-items: center;
+    width: 220px;
+    height: 82px;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 5%;
+}
+
+.box3 img {
+    width: 71px;
+    height: 62px;
+    border-radius: 10px;
+    margin-left: 8px;
+    margin-top: 2%;
+}
+
+.needphoto img {
+    width: 360px;
+    height: 218px;
+    border-radius: 12px;
+    margin-left: 15px;
+    margin-top: 40px;
+}
+
+.needphoto p {
+    font-family: Rubik;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 22px;
+    color: rgba(34, 40, 60, 1);
+    margin-left: 14px;
+    margin-top: 12px;
+}
+
+.needphoto h3 {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 10px;
+    color: rgba(157, 161, 180, 1);
+    margin-left: 14px;
+    margin-top: 5px;
+}
+
+.needphoto h4 {
+    font-family: SF Pro Text;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.32px;
+    color: rgba(34, 40, 60, 1);
+    margin-left: 14px;
+    margin-top: 5px;
+}
+
+.needphoto h5 {
+    width: 300px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(157, 161, 180, 1);
+    margin-left: 14px;
+    margin-top: 8px;
+}
+
+.needphoto button {
+    width: 286px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: rgba(252, 139, 64, 1);
+    border: none;
+    font-family: Rubik;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 15px;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 14px;
+    margin-top: 32px;
+    cursor: pointer;
+}
